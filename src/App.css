@@ -1,0 +1,187 @@
+:root{
+  --primary-gray: #8B92C0;
+}
+
+.navb {
+  /* max-width: 20%; */
+  height: 100vh;
+}
+
+* {
+  font-family: monospace;
+  box-sizing: border-box;
+}
+
+.bgcolor {
+  background-color: #282A5A;
+}
+.bgMain{
+  background-color: #242555;
+  width: 100%;
+  height:100vh;
+}
+.bgSec {
+  background-color: #D4A138;
+}
+
+.bgColor {
+  background-color: #D3A137;
+}
+
+.textColor {
+  color: #D3A137;
+}
+
+.textcolor {
+  color: #8B92C0;
+}
+
+.textPrimary {
+  color: #7131E6;
+}
+
+.logo {
+  letter-spacing: .25rem;
+}
+
+nav ul li:hover {
+  background-color: #40415c;
+}
+
+.bt {
+  text-align: center;
+}
+
+.popBack {
+  background-color: #0F172A;
+}
+
+.popup-overlay {
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.popup {
+  padding: 20px;
+  width: 400px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.bar {
+  height:100vh;
+
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.react-calendar {
+  background-color: #D4A138;
+  width: 86%;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+.react-calendar__navigation {
+  /* padding-left: 0.25rem; */
+  background-color: inherit;
+}
+
+.calendar-container {
+  border-radius: 0.5rem;
+}
+
+.react-calendar__navigation button {
+  color: white;
+  background: none;
+  font-size: medium;
+  margin-top: 0.5rem;
+  border: none;
+}
+
+abbr[title] {
+  padding-top: 0.5rem;
+  text-decoration: none;
+  color: #7131E6;
+}
+
+.react-calendar__month-view__days button {
+  border: none;
+  font-size: small;
+
+  background-color: #D3A137;
+}
+
+.react-calendar__tile--active {
+  background-color: #7131E6 !important;
+  border-radius: 1rem;
+  padding: 2px 0px;
+  font-weight: bold;
+  color: white;
+}
+
+.weather-container {
+  width: 90%;
+  margin: auto;
+  border-radius: 1rem !important;
+}
+ .ic{
+  color: #7131E6;
+padding-right: 1rem;
+}
+/* ............main Page .............. */
+
+.btnSubmit{
+  background-color: #fff;
+  margin-left: 8rem;
+  color: #282A5A;
+}
+.tab{
+  text-decoration: none;
+  font-size: 1.25rem;
+  margin-left: 1.5rem;
+  color: var(--primary-gray) !important;
+}
+.active-tab{
+  border-right: 2px #7131E6 !important;
+  
+}
+.allList{
+
+  list-style-type: none;
+ 
+}
+.allList p{
+  color:#8B92C0 ;
+  
+}
+.firstChildStyle{
+  background-color: #D3A137;
+}
+.firstChildStyle p{ 
+  color:#7131E6;
+}
+.bCom{
+  border: none;
+  background-color:#92DADA ;
+  color: #5D97A5;
+}
+.bUn{
+  border: none;
+  background-color:#E1C69A ;
+  color: #A98474;
+}
